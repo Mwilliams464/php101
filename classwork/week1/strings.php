@@ -5,6 +5,12 @@
   </head>
   <body>
     <!-- Add your PHP code in the tag below -->
-    <p></p>
+    <p><?php  
+    		$foo = "hey";
+    		$foo .= " you";
+    		$foo .= " guys!";
+    		echo $foo; 
+    		echo "\nI said hey!".$foo;
+    		?></p>
   </body>
 </html>
